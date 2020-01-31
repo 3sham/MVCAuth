@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="90a06bd31f094998ab35f9f221ba7d28" Name="Diagram1">
+        <EntityTypeShape EntityType="TestModel.C__MigrationHistory" Width="1.5" PointX="5.75" PointY="1.5" />
+        <EntityTypeShape EntityType="TestModel.AspNetRole" Width="1.5" PointX="3.75" PointY="0.75" />
+        <EntityTypeShape EntityType="TestModel.AspNetUserClaim" Width="1.5" PointX="3" PointY="3.25" />
+        <EntityTypeShape EntityType="TestModel.AspNetUserLogin" Width="1.5" PointX="3" PointY="8.75" />
+        <EntityTypeShape EntityType="TestModel.AspNetUserRole" Width="1.5" PointX="6" PointY="4.5" />
+        <EntityTypeShape EntityType="TestModel.AspNetUser" Width="1.5" PointX="0.75" PointY="3.625" />
+        <EntityTypeShape EntityType="TestModel.Category" Width="1.5" PointX="5.75" PointY="7.875" />
+        <EntityTypeShape EntityType="TestModel.Item" Width="1.5" PointX="8" PointY="7.625" />
+        <EntityTypeShape EntityType="TestModel.User" Width="1.5" PointX="7.75" PointY="1.5" />
+        <AssociationConnector Association="TestModel.FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId" />
+        <AssociationConnector Association="TestModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="TestModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="TestModel.FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="TestModel.FK_Item_Item" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
